@@ -19,13 +19,7 @@ ol {
   color: #2e2f42;
 }
 
-.list-nav {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-}
-
-.list-nav .logotype,
+.header .logotype,
 .footer .logotype {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -35,6 +29,12 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+}
+
+.list-nav {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
 }
 
 .header .link-nav {
