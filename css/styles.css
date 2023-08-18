@@ -18,7 +18,7 @@ ol {
 .header .logotype,
 .footer .logotype {
   color: #4d5ae5;
-  font-family: Raleway;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   /* font-style: normal; */
   font-weight: 700;
@@ -42,9 +42,12 @@ ol {
   font-weight: 500;
 }
 
+.addres {
+  font-style: normal;
+}
+
 .header .link-addr {
   color: #434455;
-  font-style: normal;
   font-weight: 400;
 }
 
@@ -69,9 +72,11 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  text-align: center;
 }
 
 .button {
+  font-family: inherit;
   background: #4d5ae5;
   color: #fff;
   font-size: 16px;
@@ -83,6 +88,7 @@ ol {
 }
 
 .button:hover,
+.button.focus,
 .button:active {
   background: #404bbf;
 }
@@ -106,12 +112,12 @@ ol {
 }
 
 /* section-3 */
-.section-3 {
+.section-team {
   background: #f4f4fd;
 }
 
-.list-section3 {
-  background: #fff;
+.list-section-team {
+  background: #ffffff;
 }
 
 .section-title {
@@ -122,6 +128,7 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+  text-align: center;
 }
 
 /* section-4 */
