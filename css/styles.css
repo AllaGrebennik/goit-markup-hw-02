@@ -19,8 +19,7 @@ ol {
   color: #2e2f42;
 }
 
-.header .logotype,
-.footer .logotype {
+.logotype {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
