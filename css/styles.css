@@ -15,6 +15,16 @@ ol {
 }
 
 /* header */
+.logo-header {
+  color: #2e2f42;
+}
+
+.list-nav {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+}
+
 .header .logotype,
 .footer .logotype {
   color: #4d5ae5;
@@ -25,16 +35,6 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-}
-
-.logo-header {
-  color: #2e2f42;
-}
-
-.list-nav {
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
 }
 
 .header .link-nav {
@@ -88,7 +88,7 @@ ol {
 }
 
 .button:hover,
-.button.focus,
+.button:focus,
 .button:active {
   background: #404bbf;
 }
@@ -116,8 +116,8 @@ ol {
   background: #f4f4fd;
 }
 
-.list-section-team {
-  background: #ffffff;
+.list-team {
+  background-color: #ffffff;
 }
 
 .section-title {
